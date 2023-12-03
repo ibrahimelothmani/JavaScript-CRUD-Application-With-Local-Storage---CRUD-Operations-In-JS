@@ -1,0 +1,46 @@
+h2 {
+    background-color: wheat;
+    font-family: cursive;
+    text-align: center;
+    color: black;
+    border: 2px solid wheat;
+    border-radius: 10px;
+}
+
+label {
+    font-family: cursive;
+    color: black;
+    font-weight: bolder;
+}
+
+.container {
+    text-align: center;
+}
+
+input {
+    font-family: cursive;
+    background-color: aqua;
+    color: black;
+    width: 50%;
+    height: 7vh;
+    border-radius: 20px 10px;
+}
+
+th,
+tbody {
+    background-color: #00ffd5;
+    font-family: cursive;
+    width: 60px;
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 10px;
+    text-align: center;
+}
+#Update {
+    width: 10px;
+    height: 2vh;
+}
+
+#submit {
+    font-family: cursive;
+}

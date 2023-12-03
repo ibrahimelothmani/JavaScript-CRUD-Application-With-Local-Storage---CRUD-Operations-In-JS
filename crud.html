@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- En peut utiliser le bootstrap suivant -->
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous"> -->
+        
+    <link rel="stylesheet" href="style.css">
+    <title>Crud App</title>
+</head>
+
+<body>
+
+    <main>
+        <section>
+            <div class="container">
+                <h2 class="mt-5 mb-5">Crud Application</h2>
+                <div class="mb-5">
+                    <div class="row">
+                        <div class="form-group col-md-6 mb-3">
+                            <label for="name">Nom</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                            <input type="text" name="name" id="name" class="form-control" placeholder="Entrer votre Nom">
+                        </div>
+                        <br>
+                        <div class="form-group col-md-6 mb-3">
+                            <label for="age">Age</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                            <input type="text" name="age" id="age" class="form-control" placeholder="Entrer votre Age">
+                        </div>
+                        <br>
+                        <div class="form-group col-md-6 mb-3">
+                            <label for="adresse">Adresse</label>&nbsp;
+                            <input type="text" name="adresse" id="adresse" class="form-control"
+                                placeholder="Entrer votre Adresse">
+                        </div>
+                        <br>
+                        <div class="form-group col-md-6 mb-3">
+                            <label for="email">Email</label>&nbsp;&nbsp;&nbsp;&nbsp;
+                            <input type="text" name="email" id="email" class="form-control" placeholder="Entrer votre email">
+                        </div>
+                        <br>
+                        <div class="col-lg-12 mt-5">
+                            <button id="submit" class="btn btn-primary" onclick="ajouterData()">Ajouter</button>
+                            <button id="Update"></button>
+                        </div>
+                    </div>
+                </div>
+                <hr>
+        </section>
+    </main>
+    <footer>
+        <div class="row mt-5" align="center">
+            <div class="col-12">
+                <table class="table table-bordered" id="crudTable">
+                    <thead>
+                        <tr>
+                            <th>Nom</th>
+                            <th>Age</th>
+                            <th>Adresse</th>
+                            <th>Email</th>
+                            <th>Action</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                    </tbody>
+                </table>
+
+            </div>
+        </div>
+    </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
